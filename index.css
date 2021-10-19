@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins";
+    background-color: black;
+    color: white;
+}
+#logo {
+    width: 2rem;
+    height: 2rem;
+}
+#item {
+    color:rgb(143, 163, 255);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+/* #navbar {
+    background-color: #ffffff6e!important;
+    box-shadow: 0 0 23px 0 #ffffffb9;
+} */
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav.sticky#navbar{
+    background-color:rgba(0, 0, 0, 0.521);
+    box-shadow: 0 0 20px 0 white;
+}
+nav.sticky ul li a {
+    color: white;
+}
+#kudus {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color:rgb(143, 163, 255);
+}
+.navbar-brand {
+    border-bottom: 1px solid white;
+}
+.navbar-brand a img {
+    width: 80px;
+    height: 80px;
+}
+.container-fluid a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+.btn {
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px 25px 10px 25px;
+}
+.pengenal {
+    margin-top: 60px;
+}
+.pengenal h2 {
+    font-family: 'Merienda', cursive;
+}
+.pengenal h5 {
+    font-family: 'Inconsolata', monospace;
+}
+.main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main h3 {
+    width: 100%;
+    font-family: 'Merienda', cursive;
+}
+.main img {
+    width: 50%;
+}
+.main p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.main h5 {
+    font-family: 'Inconsolata', monospace;
+}
+/* .view {
+    overflow: hidden;
+}
+.view img {
+    transition: all 1.5s ease;
+}
+.view:hover img{
+    transform: scale(1.5);
+} */
+.main h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(7, 7, 194);
+    color: white;
+    margin-top: 20px;
+}
+.main h6:hover {
+    background-color: white;
+    color: rgb(7, 7, 194);
+    border-bottom: 1px solid rgb(7, 7, 194);
+}
+.maps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col h2 {
+    font-family: 'Merienda', cursive;
+}
+.col h5 {
+    font-family: 'Inconsolata', monospace;
+}
+footer{
+    margin-top: 40px;
+}
+.sosial a {
+    margin-left: 12px;
+    margin-right: 12px;
+}

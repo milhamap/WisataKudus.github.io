@@ -1,0 +1,184 @@
+body {
+    font-family: "Poppins";
+    background-color: black;
+    color: white;
+}
+#logo {
+    width: 2rem;
+    height: 2rem;
+}
+#item {
+    color:rgb(143, 163, 255);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#item1 {
+    color:rgb(143, 163, 255);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid white;
+}
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav.sticky#navbar{
+    background-color:rgba(0, 0, 0, 0.521);
+    box-shadow: 0 0 20px 0 white;
+}
+nav.sticky ul li a {
+    color: white;
+}
+#kudus {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color:rgb(143, 163, 255);
+}
+.navbar-brand a img {
+    width: 80px;
+    height: 80px;
+}
+.container-fluid a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+#wisata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Special Elite', cursive;
+    font-weight: bold;
+}
+.about {
+    margin: 70px 0 30px 0;
+}
+.pengenal {
+    margin-top: 60px;
+}
+.pengenal h5 {
+    margin-left: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main ul {
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 12px;
+    top: 50px;
+}
+.main h3 {
+    margin-bottom: -70px;
+    margin-left: 60px;
+    width: 100%;
+    font-family: 'Merienda', cursive;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px solid white;
+}
+.item img {
+    width: 50%;
+}
+.item p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.item h5 {
+    margin-left: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.item h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(7, 7, 194);
+    color: white;
+    margin-top: 20px;
+}
+.item h6:hover {
+    background-color: white;
+    color: rgb(7, 7, 194);
+    border-bottom: 1px solid rgb(7, 7, 194);
+}
+.main1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px solid white;
+    margin-top: -30px;
+}
+.main1 ul {
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 14px;
+    top: 50px;
+}
+.main1 h3{
+    margin-bottom: 60px;
+    font-family: 'Merienda', cursive;
+}
+.main1 img {
+    width: 50%;
+}
+.main1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.main1 h5 {
+    margin-left: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.main1 h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(7, 7, 194);
+    color: white;
+    margin-top: 20px;
+}
+.main1 h6:hover {
+    background-color: white;
+    color: rgb(7, 7, 194);
+    border-bottom: 1px solid rgb(7, 7, 194);
+}
+.maps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col h2 {
+    font-family: 'Merienda', cursive;
+}
+.col h5 {
+    font-family: 'Inconsolata', monospace;
+}
+footer{
+    margin-top: 20px;
+}
+.sosial a {
+    margin-left: 12px;
+    margin-right: 12px;
+}
