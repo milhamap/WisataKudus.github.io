@@ -1,7 +1,7 @@
 body {
-    font-family: "Poppins";
-    background-color: black;
-    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(12, 12, 12, 0.945);
+    color: #ebe9e1;
 }
 #logo {
     width: 2rem;
@@ -12,20 +12,58 @@ body {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 }
-/* #navbar {
-    background-color: #ffffff6e!important;
-    box-shadow: 0 0 23px 0 #ffffffb9;
-} */
+#navbar {
+    background-color: #313b2f85;
+}
+#bg {
+    background-size: cover;
+    opacity: 0.5;
+    background-color: black;
+    background-repeat: no-repeat;
+}
 nav {
     margin-top: 0;
     margin-bottom: 0;
 }
 nav.sticky#navbar{
-    background-color:rgba(0, 0, 0, 0.521);
-    box-shadow: 0 0 20px 0 white;
+    background-color:#313b2fd3;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.589);
 }
 nav.sticky ul li a {
     color: white;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: -90px;
+    text-transform: uppercase;
+}
+.caption #isi {
+    margin-top: 30px;
+    font-family: 'Antic', sans-serif;
+    font-size: 18px;
+}
+.caption #judul {
+    font-size: 60px;
+}
+.caption #judul span{
+    color: lightskyblue;
+}
+.caption a {
+    font-size: 15px;
+    border: 0.1px solid white;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 13px 40px 13px 40px;
+}
+.caption a:hover {
+    background-color: lightskyblue;
+    border: 0.1px solid lightskyblue;
+    text-decoration: none;
+    color: black;
 }
 #kudus {
     font-family: 'Kaushan Script', cursive;
@@ -43,15 +81,6 @@ nav.sticky ul li a {
     border-bottom: 1px solid white;
     margin-bottom: -1px;
 }
-.btn {
-    font-size: 15px;
-    border: 1px solid white;
-    border-radius: 1rem;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    padding: 15px 25px 10px 25px;
-}
 .pengenal {
     margin-top: 60px;
 }
@@ -59,7 +88,7 @@ nav.sticky ul li a {
     font-family: 'Merienda', cursive;
 }
 .pengenal h5 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .main {
     margin-top: 40px;
@@ -77,12 +106,13 @@ nav.sticky ul li a {
 }
 .main p {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.521);
+    color: rgba(255, 255, 255, 0.575);
     font-size: 15px;
     margin-top: 5px;
 }
 .main h5 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* color: #F2F2F2; */
 }
 /* .view {
     overflow: hidden;
@@ -100,14 +130,18 @@ nav.sticky ul li a {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
-    background-color: rgb(7, 7, 194);
-    color: white;
+    /* background-color: transparent; */
+    color: #EEEBDD;
     margin-top: 20px;
 }
+.main a {
+    text-decoration: none;
+}
 .main h6:hover {
-    background-color: white;
-    color: rgb(7, 7, 194);
-    border-bottom: 1px solid rgb(7, 7, 194);
+    background-color: lightskyblue;
+    color: rgba(29, 29, 29, 0.884);
+    /* border-bottom: 1px solid white; */
+    text-decoration: none;
 }
 .maps {
     margin-top: 50px;
@@ -117,12 +151,12 @@ nav.sticky ul li a {
     font-family: 'Merienda', cursive;
 }
 .col h5 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 footer{
     margin-top: 40px;
 }
 .sosial a {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 17px;
+    margin-right: 17px;
 }
