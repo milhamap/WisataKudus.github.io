@@ -130,8 +130,10 @@ nav.sticky ul li a {
 .item h6:hover {
     background-color: lightskyblue;
     color: rgba(29, 29, 29, 0.884);
-    /* border-bottom: 1px solid white; */
     text-decoration: none;
+}
+.item a:hover {
+    border-bottom: 1px solid black;
 }
 .main1 {
     display: flex;
@@ -170,7 +172,7 @@ nav.sticky ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    border: 0.5px solid white;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     /* background-color: transparent; */
@@ -183,8 +185,10 @@ nav.sticky ul li a {
 .main1 h6:hover {
     background-color: lightskyblue;
     color: rgba(29, 29, 29, 0.884);
-    /* border-bottom: 1px solid white; */
     text-decoration: none;
+}
+.main1 a:hover {
+    border-bottom: 1px solid black;
 }
 .maps {
     margin-top: 50px;
